@@ -22,9 +22,10 @@ with col1:
     st.link_button("Acessar Site", "https://www.spacex.com/")
 
 with col2:
+    # LOGO DA APPLE ADICIONADA AQUI
     st.image(
         "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg",
-        width=150
+        use_container_width=True
     )
 
     st.subheader("🍎 Apple")
