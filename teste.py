@@ -11,6 +11,7 @@ with col1:
         "https://upload.wikimedia.org/wikipedia/commons/d/de/SpaceX-Logo.svg",
         use_container_width=True
     )
+
     st.subheader("🚀 SpaceX")
 
     st.write("""
@@ -23,8 +24,9 @@ with col1:
 with col2:
     st.image(
         "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg",
-        use_container_width=True
+        width=150
     )
+
     st.subheader("🍎 Apple")
 
     st.write("""
@@ -39,6 +41,7 @@ with col3:
         "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg",
         use_container_width=True
     )
+
     st.subheader("🎬 Netflix")
 
     st.write("""
